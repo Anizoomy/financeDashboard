@@ -8,7 +8,10 @@ const options = {
       version: "1.0.0",
       description: "Backend API for a role-based finance dashboard system",
     },
-    servers: [{ url: "http://localhost:3300" }],
+    servers: [
+  { url: "https://financedashboard-mqwy.onrender.com", description: "Production" },
+  { url: "http://localhost:3000", description: "Local development" },
+],
     components: {
       securitySchemes: {
         bearerAuth: {
