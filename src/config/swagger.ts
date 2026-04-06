@@ -9,9 +9,9 @@ const options = {
       description: "Backend API for a role-based finance dashboard system",
     },
     servers: [
-  { url: "https://financedashboard-mqwy.onrender.com", description: "Production" },
-  { url: "http://localhost:3000", description: "Local development" },
-],
+      { url: "https://financedashboard-mqwy.onrender.com", description: "Production" },
+      { url: "http://localhost:3000", description: "Local development" },
+    ],
     components: {
       securitySchemes: {
         bearerAuth: {
